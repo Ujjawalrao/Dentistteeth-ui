@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentytech.com</title>
+    <!-- remix-Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- tailwnd -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- form -->
+        <div class="formm">
+            <div class="wrapper w-[90%] p-6">
+              <form>
+                <div class="text-white fixed right-5 top-2 cursor-pointer x">x</div>
+                <!-- <h2 class="m-6 font-semibold tracking-widest"> </h2> -->
+                <div class="input-field">
+                  <input type="text" required>
+                  <label>Enter your email</label>
+                </div>
+                <div class="input-field">
+                  <input type="password" required>
+                  <label>Enter your password</label>
+                </div>
+                <div class="forget">
+                  <label for="remember">
+                    <input type="checkbox" id="remember">
+                    <p>Remember me</p>
+                  </label>
+                  <a href="#">Forgot password?</a>
+                </div>
+                <button class="text-white border border-gray-400" type="submit">Log In</button>
+                <div class="register">
+                  <p>Don't have an account? <a href="">Register</a></p>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- sign up -->
+          <div class="formm">
+            <div class="wrapper w-[90%] p-6">
+              <form>
+                <div class="text-white fixed right-5 top-2 cursor-pointer x">x</div>
+                <!-- <h2 class="m-6 font-semibold tracking-widest"> </h2> -->
+                <div class="input-field">
+                  <input type="text" required>
+                  <label>Enter your email</label>
+                </div>
+                <div class="input-field">
+                  <input type="password" required>
+                  <label>Enter your password</label>
+                </div>
+                <div class="forget">
+                  <label for="remember">
+                    <input type="checkbox" id="remember">
+                    <p>Remember me</p>
+                  </label>
+                  <a href="#">Forgot password?</a>
+                </div>
+                <button class="text-white border border-gray-400" type="submit">Log In</button>
+                <div class="register">
+                  <p>Don't have an account? <a href="">Register</a></p>
+                </div>
+              </form>
+            </div>
+          </div>
+           <!-- navbar -->
+    <nav id="navbar" class="navbar w-full overflow-hidden z-90">
+        <div class="menu">
+            <p class="text-white cursor-pointer">Menu</p>
+            <button class="text-white"><i class="ri-menu-4-line "></i></button>
+        </div>
+        <div id="siteLogo" class="name text-white cursor-pointer">SmileCare : ) </div>
+        <div class="nav-btn hidden md:block">
+            <button class="text-white sign-in">Sign in</button>
+            <button class="sign bg-gray-400 ">Sign up</button>
+        </div>
+    </nav>
+    <!--  -->
+    <main class="main">
+        <section class="hero h-[100dvh] w-screen relative overflow-hidden">
+            <div id="hero-bnt" class="sm:hidden absolute top-[15%] left-[35%] z-10 lg:hidden ">
+                <button class="text-white border border-gray-400 px-2 rounded sign-in">Sign in</button>
+                <button class="bg-white text-black rounded-lg font-bold  px-2 ">Sign up</button>
+            </div>
+            <h1>Our Advantages</h1>
+            <div id="imgDiv" class="absolute z-[8] h-full w-screen bg-transparent">    
+            <img class="img1"
+            src="https://images.unsplash.com/photo-1736444866019-2771023e2929?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img class="img2"
+            src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1727&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img class="img3"
+            src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img class="img4"
+            src="./Screenshot 2025-04-09 231253.png">
+            </img>
+            <h4 class="cursor-pointer">Your Smile, Our passion</h4>
+        </section>
+<!-- 2 -->
+        <section class="two px-4 h-full md:mt-6 w-screen ">     
+            <div  id="two" class="gray-1 h-full bg-black text-white px-10">
+                <h1 class="text-[30px]  text-center font-bold mb-4 md:mb-10 border-b py-6 ">Products</h1>
+                
+
+                <div class="flex justify-around items-center lg:flex-row flex-col pb-6 gap-4 pt-8">
+                    <div class="w-[100%] p-2 flex items-center justify-center lg:flex-col gap-2 md:gap-16 h-full br  hidden md:block">
+                        <h2 class="text-[14px] md:text-[2vw] p-2 md:font-bold"> The DigiSca Technology is<br> platform for acessible dentistr... </h2>
+                        <img src="https://imgs.search.brave.com/GkcJxe1sHnFyodMss4sunHIBxDHCp3eDrxbnBzWuoDI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nbWFydC5jb20v/ZmlsZXMvMS9UZWV0/aHMtUE5HLnBuZw" alt="teath-img"
+                            class="w-[25vw]">
+                    </div>
+<!--  -->
+                    <div class="flex flex-col gap-12 w-[100%]">
+
+                        <div class="flex md:flex-row flex-col gap-4 text-center md:text-start br p-2 rounded items-center py-4 hover:border">
+                            <img class="max-w-[12vw] "
+                                src="https://imgs.search.brave.com/Za7j06-7pWhnr02_zAIiSCp1Ylf12TZzK64sCrtx7vk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvdGVldGgtcG5n/LWRwa2NhdjRwamF5/M2psdDAucG5n"
+                                alt="">
+                            <div>
+                                <h3 class="text-xl font-bold md:text-4xl">Teath</h3>
+                                <p class="max-w-[400px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eveniet cupiditate mollitia
+                                    obcaecati repellendus dolorum.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex md:flex-row flex-col gap-4 text-center md:text-start  br p-2 rounded items-center py-4 hover:border">
+                            <img class="max-w-[12vw] "
+                                src="https://imgs.search.brave.com/UsjvCQPEqzDaor2ERQUuTmrijGhHpii3C9jnI89BE3E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nbWFydC5jb20v/ZmlsZXMvMTcvVG9v/dGgtUE5HLVBob3Rv/cy5wbmc"
+                                alt="">
+                            <div>
+                                <h3 class="text-xl font-bold md:text-4xl">Teath</h3>
+                                <p class="max-w-[400px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eveniet cupiditate mollitia
+                                    obcaecati repellendus dolorum.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div> 
+            </div>
+
+        </section>
+<!-- 3 -->
+        <section class="three h-full py-8 md:h-[180vh] w-screen flex flex-col gap-8 md:gap-20 justify-center items-center">
+            <div class="shadow-vibe1 w-[90vw] md:w-[70vw] h-[70vh] flex-col md:flex-row md:h-[70vh] flex justify-center rounded-[16px] overflow-hidden gap-1 md:gap-4 border">
+                <div class="w-full md:w-[45vw] h-full overflow-hidden">
+                    <img src="https://i.pinimg.com/736x/99/cd/9b/99cd9be19c7a7c7411ad4cd91d376212.jpg" alt="Dentytech-img"
+                        class="Dentytech-img w-full object-top object-cover hover:scale-[1.2] object-cover object-bottom h-full ">
+                </div>
+                <div class="w-full flex justify-start items-start flex-col p-2">
+                    <h1 class="text-2xl font-bold ">Dentytech Ujjawal</h1>
+                    <p class="pp text-gray-300 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati alias est perspiciatis fuga laborum pariatur optio iure amet culpa reprehenderit maxime cum maiores, quisquam quae assumenda corporis eum perferendis labore suscipit quas dicta quia.</p>
+                    <br>
+                    <h1 class="text-2xl font-bold hidden md:block">Dentytech Ujjawal</h1>
+                    <p class="pp text-gray-300 hidden md:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati alias est perspiciatis fuga laborum pariatur optio iure amet culpa reprehenderit maxime cum maiores, quisquam quae assumenda corporis.</p>
+                </div>
+            </div>
+<!--  -->
+            <div class="shadow-vibe2 w-[90vw] md:w-[70vw] h-[70vh] md:h-[70vh] flex flex-col md:flex-row rounded-[16px] overflow-hidden gap-1 md:gap-4 border ">
+                <div class="w-full flex justify-start items-start flex-col p-2">
+                    <h1 class="text-2xl font-bold">Sonia Yadav</h1>
+                    <p class="pp text-gray-300 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati alias est perspiciatis fuga laborum pariatur optio iure amet culpa reprehenderit maxime cum maiores, quisquam quae assumenda corporis eum perferendis labore suscipit quas dicta quia.</p>
+                    <br>
+                    <h1 class="text-2xl font-bold hidden md:block">Sonia Yadav</h1>
+                    <p class="pp text-gray-300 hidden md:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati alias est perspiciatis fuga laborum pariatur optio iure amet culpa reprehenderit maxime cum maiores, quisquam quae assumenda corporis.</p>
+                </div>
+                <div class="w-full md:w-[45vw] overflow-hidden">
+                    <img src="https://i.pinimg.com/736x/62/bd/e1/62bde188ce7fcab997a9d68901a4b09d.jpg" alt="Dentytech-img"
+                        class="Dentytech-img w-full object-top object-cover hover:scale-[1.2] object-cover object-bottom h-full">
+                </div>
+                
+            </div>
+
+        </section>
+<!-- 4 -->
+        <section id="four" class="px-4 h-[110v] w-screen">        
+            <div class="gray-2 h-full w-full px-2 pb-8 md:px-20 bg-black text-white ">
+                <h1 class="text-[30px] md:text-4xl text-center font-bold py-4">" Technology "</h1>
+                <p class="text-[16px] md:text-xl text-gray-300 md:mb-6 ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.Quasi mollitia perspiciatis atque saepe architecto earum, doloribus nobis labore dolorum harum quaerat ad cum. Magnam, minus molestias. Ea debitis perspiciatis aperiam delectus minus impedit odio illo labore voluptate excepturi voluptatibus reiciendis numquam itaque minima, accusamus ab soluta magni, nihil aut suscipit, at fugit! Optio fugiat adipisci amet dignissimos repudiandae iusto dicta dolore eum vel delectus laborum, veritatis repellendus tenetur assumenda quia impedit itaque! Autem fugiat eligendi debitis tenetur assumenda similique maiores velit!</p>
+                     <p class="text-xl text-gray-300 mb-6 hidden md:block"> odit dignissimos officia excepturi corporis corrupti! Sapiente odio voluptatum facere aperiam nisi fugit illo, quam atque. A, necessitatibus dolorum! Et officiis aperiam qui est eveniet delectus veniam fuga culpa? Cumque tempore ullam id nostrum laborum, mollitia corrupti tempora labore voluptas? Molestiae fuga tempora in voluptatum ex temporibus iure esse dolorem nisi cupiditate, aliquam, porro quos deserunt. Excepturi voluptas itaque, maxime qui hic repellat, deserunt labore exercitationem libero, nisi aspernatur nihil odio eum neque iure eius? Fugiat animi laboriosam odio vitae dolore iusto eos illo. Vero provident reiciendis officia neque qui delectus quas sit ducimus recusandae .
+                </p>
+                
+                <hr class= "mt-4">
+
+            </div>
+
+        </section>
+<!-- 5 -->
+        <section class="h md:h-[70vh] w-screen flex justify-center items-center flex-col ">
+            <h1 class="text-[30px] text-center font-bold mb-10  my-4">Rootcanal therapy</h1>
+            <div class=" w-[90%] md:w-[70%] flex justify-center rounded-[10px] overflow-hidden gap-8 flex-wrap border-b pb-8">
+
+                <div class="md:w-[390px] max-w-[100px] h-[100px] md:h-[250px] overflow-hidden rounded-lg"><img src="https://i.pinimg.com/736x/9d/c4/b6/9dc4b6008a600a245df1f6b715d4d7aa.jpg" class="object-center object-cover h-full" alt="work-img"></div>
+                <div class="md:w-[390px] max-w-[100px] h-[100px] md:h-[250px] overflow-hidden rounded-lg"><img src="https://i.pinimg.com/736x/bf/23/3f/bf233f0840592e3618f92e181beed2b5.jpg" class="object-center object-cover h-[80%]" alt="work-img"></div>
+                <div class="md:w-[390px] max-w-[100px] h-[100px] md:h-[250px] overflow-hidden rounded-lg"><img src="https://i.pinimg.com/736x/36/68/73/366873ff4022d17910d0a61ce17c3cb9.jpg" class="object-center object-cover h-[60%]" alt="work-img"></div>
+                <div class="md:w-[390px] max-w-[100px] h-[100px] md:h-[250px] overflow-hidden rounded-lg"><img src="https://i.pinimg.com/736x/38/e3/be/38e3be0c28dce9586d744ec6c52eb7fd.jpg" class="object-center object-cover" alt="work-img"></div>
+                <div class="md:w-[390px] max-w-[100px] h-[100px] md:h-[250px] overflow-hidden rounded-lg"><img src="https://i.pinimg.com/736x/91/3c/a5/913ca50d551c139c50d58f4fc14e90ae.jpg" class="object-center object-covrr " alt="work-img"></div>
+                <div class="md:w-[390px] max-w-[100px] h-[100px] md:h-[250px] overflow-hidden rounded-lg"><img src="https://i.pinimg.com/736x/75/8b/28/758b28fe8e96ad48ff72daf90c6b1d76.jpg" class="object-center object-cover 39:h-full" alt="work-img"></div>
+               
+            </div>
+
+        </section>
+<!-- 6 -->
+        <section id="6" class="h-full py-10 md:h-[60vh] md:h-[90vh] w-full flex flex-col items-center justify-center">
+            <div class="w-[80%] h-full md:h-[90%] md:h-[60%] flex flex-col md:flex-row items-center justify-between overflow-hidden bg-[url('https://images.subsplash.com/blur.jpg?id=69137af7-cb9e-43f2-a1c6-448a45f8c2b6&w=1024&h=1024&f=blur')] bg-center bg-cover rounded-[29px]">
+                <div class="w-full h-full flex items-center justify-center flex-col p-8 lg::p-28 gap-8">
+                    <h1 class="md:text-4xl font-semibold ">Ready to streamline your dental practice?</h1>
+                    <p class="md:text-xl">Join thousands of dental practices that trust Dentech for their practice management needs.</p>
+                    <div  class="w-full flex gap-8 ">
+                        <button class="md: rounded-xl bg-white text-black text-[15px] md:text-[16px] font-bold">Schedule Demo</button>
+                        <button class="rounded-xl p-2">Contact Us →</button>
+                    </div>
+                </div>
+                <div class="w-full h-full pt-8 ">
+                    <img src="https://www.dentech.com/_next/image?url=%2Fimages%2Fbackground-hero.webp&w=3840&q=75"  alt=""
+                        class="h-full scale-[1.1]">
+                </div>
+            </div>
+        </section>
+        <footer class="border-t text-gray-200">
+            <div class="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          
+              <!-- About -->
+              <div>
+                <h2 class="text-lg font-semibold text-gray-100 mb-4">SmileCare Dental</h2>
+                <p class="text-sm">
+                  We provide quality dental care with a gentle touch. Your smile is our priority!
+                </p>
+              </div>
+          
+              <!-- Quick Links -->
+              <div>
+                <h2 class="text-lg font-semibold text-gray-100 mb-4">Quick Links</h2>
+                <ul class="space-y-2 text-sm">
+                  <li><a href="#" class="hover:text-gray-400">About Us</a></li>
+                  <li><a href="#" class="hover:text-gray-400">Services</a></li>
+                  <li><a href="#" class="hover:text-gray-400">Book Appointment</a></li>
+                  <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+                </ul>
+              </div>
+          
+              <!-- Services -->
+              <div>
+                <h2 class="text-lg font-semibold text-gray-100 mb-4">Services</h2>
+                <ul class="space-y-2 text-sm">
+                  <li><a href="#" class="hover:text-gray-400">Teeth Cleaning</a></li>
+                  <li><a href="#" class="hover:text-gray-400">Braces</a></li>
+                  <li><a href="#" class="hover:text-gray-400">Whitening</a></li>
+                  <li><a href="#" class="hover:text-gray-400">Dental Implants</a></li>
+                </ul>
+              </div>
+          
+              <!-- Contact Info -->
+              <div>
+                <h2 class="text-lg font-semibold text-gray-100 mb-4">Contact</h2>
+                <p class="text-sm">Jail Dental Lane</p>
+                <p class="text-sm">Phone: +91 0000-00000</p>
+                <p class="text-sm">Email: smilecare@.com</p>
+              </div>
+          
+            </div>
+          
+            <div class="bg-gray-200 py-4 text-center text-sm text-gray-600">
+              &copy; 2025 SmileCare Dental. Developed by <span class="font-medium">Ujjawal Yadav</span>.
+            </div>
+          </footer>
+    </main>
+    
+      
+    <!-- lenis -->
+    <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js" integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
